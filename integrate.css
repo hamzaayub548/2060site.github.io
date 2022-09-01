@@ -1,0 +1,138 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    padding: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 25rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 30% 20% 6% 5%;
+    color: white;
+}
+
+.card p {
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0% 20% 0% 5%;
+    color: white;
+}
+
+.earn-operating {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .earn-operating {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.earn-operating-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 50rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.earn-operating-card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0% 20% 6% 5%;
+    color: white;
+}
+
+.earn-operating-card p {
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0% 20% 0% 5%;
+    color: white;
+}
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #0c0c12 !important;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.me-4 {
+    text-decoration: none;
+}
+
+.socialicon {
+    margin-right: 5%;
+}
+
+.email-cards {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .email-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.email-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 8rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.email-card input {
+    margin-top: 7%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 10px 0px 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid #00B2FF;
+    background-color: #0c0c12;
+    color: white;
+}
+
+.email-card h2 {
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 7.5% 0% 0% 8%;
+    color: white;
+}

@@ -1,0 +1,183 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    padding: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.cards {
+    display: grid;
+    width: 100%;
+}
+
+@media (min-width: 300px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 7rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 5% 20% 20% 0%;
+    color: white;
+}
+
+.about-banner-cards {
+    display: grid;
+    width: 100%;
+}
+
+@media (min-width: 300px) {
+    .about-banner-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.about-banner-card {
+    background-color: #0c0c12;
+    height: 40rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+.discover-text {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: -15%;
+}
+
+.discover-text p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    text-align: left;
+    color: white;
+}
+
+.discover-text button {
+    border: 1px solid #61C4E8;
+    margin-top: 10%;
+    color: #0c0c12;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: #61C4E8;
+}
+.image-cards {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-top: 10%;
+}
+
+@media (min-width: 900px) {
+    .image-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.image-card {
+    background-color: #0c0c12;
+    color: white;
+    padding: 1rem;
+    height: 38rem;
+}
+.image-card h5{
+    padding-top: 5%;
+}
+.image-card p{
+    padding-top: 2%;
+}
+.the-team {
+    display: grid;
+    width: 100%;
+}
+
+@media (min-width: 300px) {
+    .the-team {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.team {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 7rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.team h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 5% 20% 20% 0%;
+    color: white;
+}
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #0c0c12 !important;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.me-4 {
+    text-decoration: none;
+}
+
+.socialicon {
+    margin-right: 5%;
+}
+
+.email-cards {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .email-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.email-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 8rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.email-card input {
+    margin-top: 7%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 10px 0px 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid #00B2FF;
+    background-color: #0c0c12;
+    color: white;
+}
+
+.email-card h2 {
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 7.5% 0% 0% 8%;
+    color: white;
+}

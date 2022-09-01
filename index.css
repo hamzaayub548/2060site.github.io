@@ -1,0 +1,347 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    padding: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 25rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 30% 20% 20% 5%;
+    color: white;
+}
+
+.discover-text {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.discover-text p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    text-align: left;
+    color: white;
+}
+
+.discover-text button {
+    border: 1px solid #61C4E8;
+    margin-top: 10%;
+    color: #0c0c12;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: #61C4E8;
+}
+
+.open-standards {
+    display: grid;
+    width: 100%;
+    margin-top: 10%;
+}
+
+@media (min-width: 600px) {
+    .open-standards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.open-standards-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 40rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.open-standards-card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0% 20% 10% 0%;
+    color: white;
+}
+
+.open-standards-card p {
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+
+.open-standards-card button {
+    border: 1px solid #61C4E8;
+    border-radius: 30px;
+    background-color: #61C4E8;
+
+}
+
+.your-privacy {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .your-privacy {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.yourprivacy-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 35rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.yourprivacy-card p {
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+
+.yourprivacy-card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0% 20% 10% 0%;
+    color: white;
+}
+
+.icon-cards {
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 900px) {
+    .icon-cards {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.icon-card {
+    font-size: 16px;
+    background-color: #0c0c12;
+    color: white;
+    padding: 1rem;
+    height: 14rem;
+    border-radius: 20px;
+    border: 2px solid #61c4e8;
+    transition: 0.8s;
+    margin-top: 10%;
+}
+
+.icon-card img {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-card p {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.very-verified {
+    display: grid;
+    width: 100%;
+    margin-top: 15%;
+}
+
+@media (min-width: 600px) {
+    .very-verified {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.very-verified-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 38rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.very-verified-card p {
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+
+.very-verified-card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 10% 20% 10% 0%;
+    color: white;
+}
+
+.you-network {
+    display: grid;
+    width: 100%;
+    margin-top: 15%;
+}
+
+@media (min-width: 600px) {
+    .you-network {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.you-network-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 35rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.you-network-card p {
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+
+.you-network-card h2 {
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 10% 20% 10% 0%;
+    color: white;
+}
+
+.image-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 900px) {
+    .image-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.image-card {
+    background-color: #0c0c12;
+    color: white;
+    padding: 1rem;
+    height: 35rem;
+}
+
+.text-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-top: 10%;
+}
+
+@media (min-width: 900px) {
+    .text-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.text-card {
+    background-color: #0c0c12;
+    color: white;
+    padding: 1rem;
+    height: 9rem;
+}
+
+.text-card p {
+    font-size: 18px;
+}
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #0c0c12 !important;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.me-4 {
+    text-decoration: none;
+}
+
+.socialicon {
+    margin-right: 5%;
+}
+
+.email-cards {
+    display: grid;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+    .email-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.email-card {
+    background-color: #0c0c12;
+    padding: 1rem;
+    height: 8rem;
+    border: 1px solid #0c0c12;
+    border-radius: 0%;
+}
+
+.email-card input {
+    margin-top: 7%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 10px 0px 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid #00B2FF;
+    background-color: #0c0c12;
+    color: white;
+}
+
+.email-card h2 {
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 700;
+    text-align: left;
+    padding: 7.5% 0% 0% 8%;
+    color: white;
+}
